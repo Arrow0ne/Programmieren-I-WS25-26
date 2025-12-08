@@ -50,7 +50,6 @@ public class Galgenmaennchen {
 
         System.out.println("15 Versuche erreicht. Das Wort war: " + word);
     }
-
 }
 
     /*  -1. liste erstellen
