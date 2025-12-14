@@ -1,4 +1,4 @@
-package Lektion10.RaumbelegungII;
+package Lektion_10.RaumbelegungII;
 
 public class Raum {
     private String Raum;
