@@ -34,6 +34,16 @@ public class Raum {
         }
     }
 
+    public void clearRaum() {
+        for (int i = 0; i < students.length; i++) {
+            if (students[i] != null) {
+                students[i] = null;
+            }
+        }
+        System.out.println();
+        System.out.println("Der Raum wird/wurde geleert.");
+    }
+
     public void belege() {
         this.belegt = true;
     }
