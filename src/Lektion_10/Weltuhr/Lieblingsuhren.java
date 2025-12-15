@@ -43,7 +43,7 @@ public class Lieblingsuhren {
         Uhr uhr21 = new Uhr(20, 23, 7);
         Uhr uhr22 = new Uhr(21, 23, 7);
         Uhr uhr23 = new Uhr(22, 23, 7);
-        Uhr uhr24 = new Uhr(23, 23, 7);
+        Uhr uhr24 = new Uhr(24, 59, 59);
 
         return new Uhr[]{uhr1, uhr2, uhr3, uhr4, uhr5, uhr6, uhr7, uhr8, uhr9, uhr10, uhr11, uhr12, uhr13, uhr14, uhr15, uhr16, uhr17, uhr18, uhr19, uhr20, uhr21, uhr22, uhr23, uhr24};
     }
