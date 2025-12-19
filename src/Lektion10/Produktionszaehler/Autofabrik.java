@@ -1,4 +1,4 @@
-package Lektion_10.Produktionszaehler;
+package Lektion10.Produktionszaehler;
 //non_static_loesung
 public class Autofabrik {
     int zaehler = 0;

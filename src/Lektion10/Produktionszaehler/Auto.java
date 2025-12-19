@@ -1,4 +1,4 @@
-package Lektion_10.Produktionszaehler;
+package Lektion10.Produktionszaehler;
 //static lösung
 public class Auto {
     String marke;

@@ -1,4 +1,4 @@
-package Lektion_10.Weltuhr;
+package Lektion10.Weltuhr;
 
 public class Lieblingsuhren {
 
