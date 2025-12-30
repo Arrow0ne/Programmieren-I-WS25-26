@@ -1,4 +1,5 @@
 package Lektion12;
 
-public class DoppelverketteteListe {
+public class DoppelverketteteListe{
+
 }
