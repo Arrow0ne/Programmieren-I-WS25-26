@@ -28,7 +28,8 @@ public class Baum {
 
     private void baumAusgeben(Knoten temp) {
         if (temp == null) {
-            System.out.println("Liste ist leer!");
+            System.out.println("Das Woerterbuch ist leer!");
+            System.out.println();
             return;
         }
 
@@ -43,7 +44,8 @@ public class Baum {
 
     private void searchRec(Knoten temp, String w) {
         if (temp == null) {
-            System.out.println("Wort nicht gefunden");
+            System.out.println("Wort nicht gefunden!");
+            System.out.println();
             return;
         }
 

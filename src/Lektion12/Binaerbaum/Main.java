@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         while (!beendet) {
-            System.out.println("Einfuegen |----------| Suchen |----------| Beenden");
+            System.out.println("Einfuegen |----------| Suchen |----------| Woerterbuch |----------| Loeschen |----------| Beenden");
             System.out.println("Wählen sie eine Option durch Eingabe in Textform: ");
             String Eingabe = sc.nextLine();
             Menu(Eingabe);
@@ -28,19 +28,32 @@ public class Main {
                 Knoten ktemp = new Knoten(wtemp, btemp);
                 baum.insert(ktemp);
                 baum.print();
+                System.out.println();
                 break;
             case ("Suchen"):
                 System.out.println("Bitte gebe das Wort ein das du suchst.");
                 String suchTemp = sc.nextLine();
                 System.out.print("Bedeutung: ");
                 baum.search(suchTemp);
+                System.out.println();
+                break;
+            case("Woerterbuch"):
+                System.out.println("Derzeitiges Woerterbuch: ");
+                baum.print();
+                System.out.println();
+                break;
+            case("Loeschen"):
+                System.out.println("Derzeitig noch nicht implementiert!");
+                System.out.println();
                 break;
             case ("Beenden"):
                 System.out.println("Anwendung wird beendet.");
                 beendet = true;
+                System.out.println();
                 break;
             default:
-                System.out.println("Bitte geben Sie entweder Einfuegen oder Suchen ein!");
+                System.out.println("Bitte geben sie es richtig geschrieben ein!");
+                System.out.println();
         }
     }
 }
