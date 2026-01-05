@@ -29,7 +29,6 @@ public class Baum {
     private void baumAusgeben(Knoten temp) {
         if (temp == null) {
             System.out.println("Das Woerterbuch ist leer!");
-            System.out.println();
             return;
         }
 
